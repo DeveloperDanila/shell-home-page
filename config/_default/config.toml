@@ -54,17 +54,15 @@ ignoreErrors = ["error-remote-getjson"]
 
   description = """
 
-    Welcome on my minimalistic homepage!
+    Welcome on my hyper-minimalistic homepage!
 
     I'am Danila Developer!
 
     My specialization: Java Backend.
 
-    I'am keen on coding and development
-
-    various backend things.
-
-    I'am fan of Clean Code and microservices
+    I'am keen on coding in Clean Code style
+    
+    and adore to develop microservices.
 
     To get an additional info about me
 
@@ -82,12 +80,13 @@ ignoreErrors = ["error-remote-getjson"]
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [
         ["My Github", "https://github.com/ClassicEngineer"],
+        ["My second Github", "https://github.com/DeveloperDanila"]
+        ["My Telegram", "https://t.me/danila_developer"],
+        ["My CV", "https://nn.hh.ru/resume/fbd88be4ff0c0bf5490039ed1f4e3069496665"],
+        ["My Email", "mailto:daniladeveloper@yandex.ru"],
         ["My Blog", "https://doka.blog"],
         ["My Photo", "https://doka.blog/me.jpg"],
-        ["My Telegram", "https://t.me/danila_developer"],
-        ["My Relax", "https://doka.blog/relax.jpg"],
-        ["My CV", "https://nn.hh.ru/resume/fbd88be4ff0c0bf5490039ed1f4e3069496665"],
-        ["My Email", "mailto:daniladeveloper@yandex.ru"]
+        ["My Relax", "https://doka.blog/relax.jpg"]
   ]
 
 [module]

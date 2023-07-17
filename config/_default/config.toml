@@ -80,7 +80,7 @@ ignoreErrors = ["error-remote-getjson"]
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [
         ["My Github", "https://github.com/ClassicEngineer"],
-        ["My second Github", "https://github.com/DeveloperDanila"]
+        ["My second Github", "https://github.com/DeveloperDanila"],
         ["My Telegram", "https://t.me/danila_developer"],
         ["My CV", "https://nn.hh.ru/resume/fbd88be4ff0c0bf5490039ed1f4e3069496665"],
         ["My Email", "mailto:daniladeveloper@yandex.ru"],

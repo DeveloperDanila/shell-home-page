@@ -86,7 +86,8 @@ ignoreErrors = ["error-remote-getjson"]
         ["My Email", "mailto:daniladeveloper@yandex.ru"],
         ["My Blog", "https://doka.blog"],
         ["My Photo", "https://doka.blog/me.jpg"],
-        ["My Relax", "https://doka.blog/relax.jpg"]
+        ["My Relax", "https://doka.blog/relax.jpg"],
+        ["My Humor", "https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=1s"]
   ]
 
 [module]

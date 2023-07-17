@@ -1,5 +1,5 @@
-baseURL = "https://www.example.com/"
-title = "Shell"
+baseURL = "https://classic-developer.com/"
+title = "Danila Developer"
 # author = "Yukuro"
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
@@ -7,13 +7,13 @@ ignoreErrors = ["error-remote-getjson"]
 
 [Params]
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
-  description = "Jane Doe's Portfolio!"
+  description = "Danila Developer's Portfolio!"
   [Params.Terminal]
   # Note: color scheme
   # Note: You can choose between
   # Note: hugo-theme-shell original: ["shell-powershell", "shell-ubuntu", "shell-retro"]
   # Note: gogh theme: https://mayccoll.github.io/Gogh/
-  scheme = "Molokai"
+  scheme = "Dracula"
 
   # Note: in terminal
   # [userName]@[pcName]:~/$ cd [workDir]
@@ -26,10 +26,10 @@ ignoreErrors = ["error-remote-getjson"]
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "jane"
-  pcName = "laptop"
-  workDir = "mydir"
-  profile = "profile.txt"
+  userName = "dan"
+  pcName = "computer"
+  workDir = "Development"
+  profile = "welcome.txt"
 
   # Note: speed at which text is displayed on the terminal
   # Note: if set to 0, typing animation will be disabled
@@ -44,7 +44,7 @@ ignoreErrors = ["error-remote-getjson"]
 
   # Note: speed at which text is displayed on the activity pages
   # Note: if set to 0, typing animation will be disabled
-  # Note: 
+  # Note:
   # Note: if you want to enable Mathjax, you need to set it to 0
   # Note: and set "math: true" at front matter in your Markdown file
   titleDelay = 0 # title speed : "title" in front matter
@@ -53,10 +53,24 @@ ignoreErrors = ["error-remote-getjson"]
   # activityDelay = 5 : deprecated
 
   description = """
-  Hi I am Jane Doe!
-  Nice to meet you!
-  
-  """
+
+    Welcome on my minimalistic homepage!
+
+    I'am Danila Developer!
+
+    My specialization: Java Backend.
+
+    I'am keen on coding and development
+
+    various backend things.
+
+    I'am fan of Clean Code and microservices
+
+    To get an additional info about me
+
+    see links below.
+
+    """
 
   # Note: If you want to use a Markdown file, you can use the following
   # description = "/description.md"
@@ -64,14 +78,16 @@ ignoreErrors = ["error-remote-getjson"]
 
   [Params.Tree]
   use = true
-  folderName = "my_activity"
+  folderName = "useful_links"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
-  files = [ 
-    ["C/C++", "https://www.example.com/"],
-    ["Python", "https://www.example.com/"],
-    ["Go", "https://golang.org/"],
-    ["Hugo", "/post/some-activity.md"],
-    ["Docker", "/post/some-activity.md"],
+  files = [
+        ["My Github", "https://github.com/ClassicEngineer"],
+        ["My Blog", "https://doka.blog"],
+        ["My Photo", "https://doka.blog/me.jpg"],
+        ["My Telegram", "https://t.me/danila_developer"],
+        ["My Relax", "https://doka.blog/relax.jpg"],
+        ["My CV", "https://nn.hh.ru/resume/fbd88be4ff0c0bf5490039ed1f4e3069496665"],
+        ["My Email", "mailto:daniladeveloper@yandex.ru"]
   ]
 
 [module]
